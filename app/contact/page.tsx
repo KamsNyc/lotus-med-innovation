@@ -1,11 +1,10 @@
 'use client'
-import Navbar from '../components/Navbar';
-import Logo from '../components/Logo';
 import React, { useEffect } from 'react';
-import Image from 'next/image';
+import Navbar from '../components/Navbar';
 import LogoAbout from '../components/LogoAbout';
+import Image from 'next/image';
 
-const about = () => {
+const About = () => {
   useEffect(() => {
     // Load the ElfSight widget script dynamically
     const script = document.createElement('script');
@@ -71,10 +70,10 @@ const about = () => {
               </div>
             </div>
             {/* RIGHT SECTION */}
-      <div className="w-full flex items-center justify-center">
-        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-        <div className="elfsight-app-5ea2e3a0-1943-4f8d-a113-6b2876a71a66"></div>
-      </div>
+            <div className="w-full flex items-center justify-center">
+              <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+              <div className="elfsight-app-5ea2e3a0-1943-4f8d-a113-6b2876a71a66"></div>
+            </div>
           </section>
         </section>
       </div>
@@ -82,4 +81,4 @@ const about = () => {
   );
 }
 
-export default about;
+export default About;
