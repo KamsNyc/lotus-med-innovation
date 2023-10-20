@@ -1,5 +1,8 @@
-import './globals.css'
 import type { Metadata } from 'next'
+import { Inter, Lato } from 'next/font/google'
+import './globals.css'
+
+const lato = Lato({ weight: ['100','300','400','700'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -11,15 +14,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const bodyStyle = {
-    fontFamily: 'Roboto, sans-serif', // Use Roboto font as the default font
-  };
-
   return (
     <html lang="en">
-      <body style={bodyStyle}>
-        {children}
-      </body>
+      <body className={lato.className}>{children}</body>
     </html>
   )
 }
