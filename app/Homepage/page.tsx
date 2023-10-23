@@ -35,10 +35,7 @@ const page = () => {
     </div>
 
 
-    {/* Logo */}
-    <div className="">
-    <Logo />
-    </div>
+   
   </section>
   )
 }

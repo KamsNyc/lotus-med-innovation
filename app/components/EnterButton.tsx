@@ -22,7 +22,7 @@ const EnterButton: React.FC<EnterButtonProps> = ({ onClick }) => {
   useEffect(() => {
     autoClickTimeoutRef.current = setTimeout(() => {
       handleAutoClick();
-    }, 8000); // 8 seconds in milliseconds
+    }, 9000); // 9 seconds in milliseconds
 
     // Clear the timeout if the user interacts with the button
     const buttonElement = document.querySelector('.enter-button');
@@ -52,14 +52,14 @@ const EnterButton: React.FC<EnterButtonProps> = ({ onClick }) => {
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-opacity-40 bg-black">
       <motion.button
-        className="text-white/50 hover:text-white bg-[#562864]/50 hover:bg-[#562864]/30 duration-500 ease-in-out h-20 px-10 rounded-full text-base font-bold z-40 enter-button tracking-wide"
+        className="text-white/50 hover:text-white bg-[#562864]/50 hover:bg-[#562864]/30 duration-500 ease-in-out h-20 px-8 rounded-full text-base font-bold z-40 enter-button tracking-wide"
         onClick={onClick}
         initial="initial"
         animate="animate"
         variants={buttonVariants}
         transition={{ duration: 1 }}
       >
-        THIS IS ENTER BUTTON
+        ENTER
       </motion.button>
       
     </div>

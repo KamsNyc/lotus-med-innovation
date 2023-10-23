@@ -27,9 +27,9 @@ const Logo = () => {
       variants={animationVariants}
     >
       <Image
-        className="absolute translate-x-[-50%] translate-y-[-50%] top-1/2 left-1/2"
-        width={800}
-        height={400}
+        className=""
+        width={200}
+        height={60}
         src="/Logo.png"
         alt="logo"
       />
