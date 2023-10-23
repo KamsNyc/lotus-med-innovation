@@ -28,7 +28,7 @@ const page = () => {
     {/* BG Slideshow */}
     <div className="w=full h-full">
 
-    <video autoPlay loop muted={true} className="w-full h-screen object-cover opacity-[15%]">
+    <video autoPlay loop muted={true} className="w-full h-screen object-cover opacity-[55%]">
   <source src="/bgVideo.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>

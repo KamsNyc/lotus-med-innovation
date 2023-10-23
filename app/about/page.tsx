@@ -55,7 +55,7 @@ const about = () => {
 
         {/* BACKGROUND GIF */}
         <Image
-        className=" opacity-5 z-[1]"
+        className=" opacity-60 z-[1]"
         src="/la.jpg"
         fill={true}
         alt="replay intro video"

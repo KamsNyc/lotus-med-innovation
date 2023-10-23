@@ -25,7 +25,7 @@ const About = () => {
     <section className='relative h-screen w-full overflow-y-auto'>
       {/* Background GIF */}
       <Image
-        className="absolute top-0 left-0 w-full h-full opacity-5 z-0"
+        className="absolute top-0 left-0 w-full h-full opacity-60 z-0"
         src="/mumbai.jpg"
         fill={true}
         alt="replay intro video"
