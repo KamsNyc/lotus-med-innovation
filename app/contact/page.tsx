@@ -33,12 +33,10 @@ const About = () => {
       {/* NAVBAR */}
       <Navbar />
 
-      <div className="">
-        {/* <LogoAbout /> */}
-      </div>
-      <div className="px-4 md:px-32 lg:px-64 tracking-wide">
+  
+      <div className="px-4 md:px-32 lg:px-64 tracking-wide pt-18 lg:pt-40">
         <section className='w-full pt-24 md:pt-76 z-[2] md:flex items-center'>
-          <section className='block lg:flex items-center justify-center w-full border-t border-gray-800 pt-4'>
+          <section className='block lg:flex items-center justify-center w-full border-gray-800 pt-4'>
             {/* LEFT SECTION */}
             <div className="w-full flex-col items-center">
               {/* ITEM */}
