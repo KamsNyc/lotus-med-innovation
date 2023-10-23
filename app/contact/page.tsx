@@ -34,17 +34,17 @@ const About = () => {
       <Navbar />
 
       <div className="">
-        <LogoAbout />
+        {/* <LogoAbout /> */}
       </div>
-      <div className="px-5 md:px-32 lg:px-64 tracking-wide">
-        <section className='w-full pt-72 md:pt-76 z-[2] md:flex items-center'>
+      <div className="px-4 md:px-32 lg:px-64 tracking-wide">
+        <section className='w-full pt-24 md:pt-76 z-[2] md:flex items-center'>
           <section className='block lg:flex items-center justify-center w-full border-t border-gray-800 pt-4'>
             {/* LEFT SECTION */}
             <div className="w-full flex-col items-center">
               {/* ITEM */}
               <div className="pb-6">
                 <h2 className='text-gray-400'>Contact Us</h2>
-                <p className='text-[12px] py-2'>Email: charlotte@vectorglo.com</p>
+                <p className='text-[12px] py-2'>Email: test@test.com</p>
               </div>
               {/* ITEM */}
               <div className="pb-6">
@@ -54,19 +54,17 @@ const About = () => {
               </div>
               {/* ITEM */}
               <div className="pb-6">
-                <h2 className='uppercase underline text-[12px] pb-2'>London</h2>
-                <p className='text-[12px] py-1'>Lynton House</p>
-                <p className='text-[12px] py-1'>7-12 Tavistock Square</p>
-                <p className='text-[12px] py-1'>London</p>
-                <p className='text-[12px] py-1'>United Kingdom</p>
+                <h2 className='uppercase underline text-[12px] pb-2'>Address</h2>
+                <p className='text-[12px] py-1'>Address</p>
+                <p className='text-[12px] py-1'>Address</p>
+    
               </div>
               {/* ITEM */}
               <div className="pb-4">
-                <h2 className='uppercase underline text-[12px] pb-2'>ACCRA</h2>
-                <p className='text-[12px] py-1'>Total House</p>
-                <p className='text-[12px] py-1'>25 Liberia Road</p>
-                <p className='text-[12px] py-1'>Accra</p>
-                <p className='text-[12px] py-1'>Ghana</p>
+                <h2 className='uppercase underline text-[12px] pb-2'>Type 2</h2>
+                <p className='text-[12px] py-1'>Type 2</p>
+                <p className='text-[12px] py-1'>Type 2</p>
+        
               </div>
             </div>
             {/* RIGHT SECTION */}
