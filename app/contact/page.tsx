@@ -1,7 +1,6 @@
 'use client'
 import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
-import LogoAbout from '../components/LogoAbout';
 import Image from 'next/image';
 
 const About = () => {
